@@ -3,16 +3,13 @@
 using namespace std;
 
 template<class T>
-class Nodo
-{
+class Nodo{
     public:
        T m_Dato;
        Nodo<T> * m_pSon[3];
        int m_Color;
 
-
-       Nodo(T d)
-       {
+       Nodo(T d){
            m_Dato = d;
            // Hijo Izquierdo
            m_pSon[0] = 0;
@@ -456,10 +453,10 @@ int test6()
 int main()
 {
     cout << "Begin test " << endl;
-    //test1();
-    //test2();
-    //test3();
-    //test4();
+    test1();
+    test2();
+    test3();
+    test4();
 
     //test5();
 
